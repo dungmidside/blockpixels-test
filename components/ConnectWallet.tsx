@@ -5,6 +5,7 @@ import clsx from "clsx";
 const ConnectWallet = () => {
   const { requestConnect, data, isLoading, initCheckLoading } = useWallet();
 
+  
   if (initCheckLoading) {
     return <div className="text-center"><progress className="progress w-56 mx-auto"></progress></div>
   }
